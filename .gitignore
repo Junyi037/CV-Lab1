@@ -1,4 +1,4 @@
 /data/
-/results/
+/experiments/
 /best_model_params.npz/
 /.idea/
