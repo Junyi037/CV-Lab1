@@ -91,7 +91,7 @@ $python train.py --layer Conv
 
 ## 4. Test
 
-在项目文件夹路径下打开终端，输入如下指令，即可以默认模型参数路径（`best_model_params.npz`）进行训练：
+在项目文件夹路径下打开终端，输入如下指令，即可以默认模型参数路径（`best_model_params.npz`）进行训练和参数可视化：
 
 ```
 $python test.py
