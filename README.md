@@ -7,7 +7,7 @@
 代码结构如下：
 ```
 CV-Lab1/
-├── experiments/
+├── experiments/(保存参数时自动创建文件夹)
 ├── Model/
 │   ├── Data/
 │   ├── Layer/
