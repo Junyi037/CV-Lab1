@@ -16,7 +16,7 @@ def parse_args():
     parser.add_argument('--weight_decay', type=float, default=0.004, help="Weight decay for AdamW (default: 0.004)")
     parser.add_argument('--batch_size', type=int, default=512, help="Batch size for training (default: 512)")
     parser.add_argument('--rate', type=float, default=0.4, help="Dropout rate (default: 0.4)")
-    parser.add_argument('--epochs', type=int, default=2, help="Number of training epochs (default: 80)")
+    parser.add_argument('--epochs', type=int, default=80, help="Number of training epochs (default: 80)")
     parser.add_argument('--T_max', type=int, default=25, help="Cosine annealing T_max (default: 25)")
     parser.add_argument('--eta_min', type=float, default=1e-05,
                         help="Minimum learning rate for cosine annealing (default: 1e-05)")
