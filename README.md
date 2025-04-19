@@ -17,7 +17,7 @@ CV-Lab1/
 │   ├── Strategy/
 │   ├── __init__.py
 │   ├── model.py
-│   ├── pipeline.py
+│   └── pipeline.py
 ├── .gitignore
 ├── README.md
 ├── test.py
